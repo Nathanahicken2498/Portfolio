@@ -1,0 +1,62 @@
+.hero{
+    background-image: url("Landscape1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+button{
+    background-color: transparent;
+    border: none;
+    color: black;
+    margin: 20px 15px;
+  }
+.home{
+    margin-left: 44px;
+  }
+  .resume{
+   float: right;
+   margin-right: 50px
+    
+  }
+  .name{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: roboto, sanserif;
+    font-weight: bold;
+  }
+  .subhead{
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: semibold;
+  }
+  .body-copy{
+    width: 400px;
+    margin-left: 50px;
+    padding-bottom: 200px;
+    font-family: roboto;
+    font-size: 18 
+  }
+  .case-study01{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 15%;
+  }
+  .case-studies{
+    position: relative;
+    top: -60px;
+  }
+  .contact-bottom{
+    text-align: center;
+    width: 500px;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: semibold;
+    margin: 200px auto 20px;
+  }
+  .flex{
+    display: flex;
+    justify-content: center;
+  }
