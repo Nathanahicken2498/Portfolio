@@ -51,6 +51,11 @@ button{
     font-weight: semibold;
     margin: 200px auto 20px;
   }
+  @media screen and (max-width:720px){
+    .contact-bottom{
+      font-size: 20px;
+    }
+  }
   .flex{
     display: flex;
     justify-content: center;
