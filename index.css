@@ -37,7 +37,7 @@ button{
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 5px 5px 10px black;
-    /* margin-left: 15%; */
+    margin-left: 15%;
   }
   .case-studies{
     position: relative;
