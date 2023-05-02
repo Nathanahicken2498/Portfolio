@@ -1,6 +1,10 @@
-var x = document.getElementById(hoverText);
-if (x.style.diplay === "none") {
-    x.style.display = "block";
-} else{
-   x.style.display = "none";
-}
+var image = document.querySelector('.case-study01');
+var hoverText = document.querySelector('.hoverText');
+
+image.addEventListener('mouseover', function() {
+  hoverText.style.display = 'block';
+});
+
+image.addEventListener('mouseout', function() {
+  hoverText.style.display = 'none';
+});
