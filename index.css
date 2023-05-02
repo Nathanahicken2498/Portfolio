@@ -45,7 +45,8 @@ button{
     top: -60px;
   }
   .hoverText{
-    margin-left: 15%
+    display: grid;
+    margin-left: 15%;
   }
   .contact-bottom{
     text-align: center;
