@@ -1,10 +1,10 @@
-var image = document.querySelector('.case-study01');
-var hoverText = document.querySelector('.hoverText');
+var x = document.querySelector('.hoverText');
+var img = document.querySelector('.case-study01');
 
-image.addEventListener('mouseover', function() {
-  hoverText.style.display = 'block';
+img.addEventListener('mouseover', function() {
+    x.style.display = 'block';
 });
 
-image.addEventListener('mouseout', function() {
-  hoverText.style.display = 'none';
+img.addEventListener('mouseout', function() {
+    x.style.display = 'none';
 });
